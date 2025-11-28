@@ -307,7 +307,7 @@
         // --- Pipes ---
         function drawPipes() {
             ctx.fillStyle = '#2ecc71'; // Green color
-            ctx.strokeStyle = '#27ae60'; // Darker green
+            ctx.strokeStyle = '#27ae60'; // Darker green color
             ctx.lineWidth = 4;
 
             for (let pipe of pipes) {
@@ -491,7 +491,7 @@
             canvas.width = newWidth;
             canvas.height = newHeight;
             
-            // Adjust bird and pipe properties based on new size
+            // Adjust bird and pipe properties based on new size of code 
             birdProps.y = canvas.height / 2;
             pipeProps.gap = newHeight * 0.27; // 160 / 600
             
